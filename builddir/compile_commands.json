@@ -1,0 +1,14 @@
+[
+  {
+    "directory": "/home/thomasd/Projects/learnc/builddir",
+    "command": "cc -Ilearnc@exe -I. -I../sourcedir -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -MD -MQ 'learnc@exe/main.c.o' -MF 'learnc@exe/main.c.o.d' -o 'learnc@exe/main.c.o' -c ../sourcedir/main.c",
+    "file": "../sourcedir/main.c",
+    "output": "learnc@exe/main.c.o"
+  },
+  {
+    "directory": "/home/thomasd/Projects/learnc/builddir",
+    "command": "cc -Ilearnc@exe -I. -I../sourcedir -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -MD -MQ 'learnc@exe/vector.c.o' -MF 'learnc@exe/vector.c.o.d' -o 'learnc@exe/vector.c.o' -c ../sourcedir/vector.c",
+    "file": "../sourcedir/vector.c",
+    "output": "learnc@exe/vector.c.o"
+  }
+]
