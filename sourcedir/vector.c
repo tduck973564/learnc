@@ -39,7 +39,9 @@ void vector_push(Vector vec, void* value)
         increase_capacity(vec);
     }
 
+    vec->list[vec->elementCount] = NULL;
     vec->list[vec->elementCount] = value;
+
     vec->elementCount += 1;
 }
 
@@ -52,7 +54,9 @@ void vector_destroy(Vector vec)
 void vector_destroy_members(Vector vec) 
 {
     for (int i = 0; i <= vec->capacity; i++) {
-        free(vector_get(vec, i));
+        void* ptr = vector_get(vec, i);
+        if (ptr != NULL) free(ptr);
     }
+    
     vector_destroy(vec);
 }

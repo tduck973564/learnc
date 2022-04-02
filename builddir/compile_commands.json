@@ -1,14 +1,14 @@
 [
   {
-    "directory": "/home/thomasd/Projects/learnc/builddir",
-    "command": "cc -Ilearnc@exe -I. -I../sourcedir -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -MD -MQ 'learnc@exe/main.c.o' -MF 'learnc@exe/main.c.o.d' -o 'learnc@exe/main.c.o' -c ../sourcedir/main.c",
+    "directory": "/home/thomasd/Coding/learnc/builddir",
+    "command": "cc -Ilearnc.p -I. -I../sourcedir -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -MD -MQ learnc.p/main.c.o -MF learnc.p/main.c.o.d -o learnc.p/main.c.o -c ../sourcedir/main.c",
     "file": "../sourcedir/main.c",
-    "output": "learnc@exe/main.c.o"
+    "output": "learnc.p/main.c.o"
   },
   {
-    "directory": "/home/thomasd/Projects/learnc/builddir",
-    "command": "cc -Ilearnc@exe -I. -I../sourcedir -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -MD -MQ 'learnc@exe/vector.c.o' -MF 'learnc@exe/vector.c.o.d' -o 'learnc@exe/vector.c.o' -c ../sourcedir/vector.c",
+    "directory": "/home/thomasd/Coding/learnc/builddir",
+    "command": "cc -Ilearnc.p -I. -I../sourcedir -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -MD -MQ learnc.p/vector.c.o -MF learnc.p/vector.c.o.d -o learnc.p/vector.c.o -c ../sourcedir/vector.c",
     "file": "../sourcedir/vector.c",
-    "output": "learnc@exe/vector.c.o"
+    "output": "learnc.p/vector.c.o"
   }
 ]

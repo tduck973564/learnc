@@ -17,6 +17,11 @@ int main() {
         printf("%d\n", *(int*)vector_get(vector, i));
     }
     
+    char* boso = calloc(9, sizeof(char)); strncpy(boso, "RIP BOZO", sizeof(char) * 9);
+    vector_push(vector, boso);
+
+    printf("string in vector: %s\n", (char*)vector_get(vector, 100));
+
     printf("vector capacity: %d\n", vector->capacity);
     
     vector_destroy_members(vector);
