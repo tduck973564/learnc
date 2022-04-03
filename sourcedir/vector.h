@@ -1,5 +1,5 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#ifndef VECTOR_H
+#define VECTOR_H
 
 typedef struct Vector_ {
     int capacity;
